@@ -17,45 +17,43 @@ Python
 # Developed By:RUDESH KANNA R
 ```
 # 1-Norm of a Matrix
-import numpy as np
-mat =np.array(eval(input()))
-ans=np.linalg.norm(mat,1)
-norm_of_matrix = "{:.2f}".format(ans)
-print(norm_of_matrix)
+import numpy as np</br>
+mat =np.array(eval(input()))</br>
+ans=np.linalg.norm(mat,1)</br>
+norm_of_matrix = "{:.2f}".format(ans)</br>
+print(norm_of_matrix)</br>
 ```
 ```
 # 2-Norm of a Matrix
 
-import numpy as np
-mat=np.array(eval(input()))
-ans=np.linalg.norm(mat,2)
-norm_of_matrix='{:.2f}'.format(ans)
-print(norm_of_matrix)
+import numpy as np</br>
+mat=np.array(eval(input()))</br>
+ans=np.linalg.norm(mat,2)</br>
+norm_of_matrix='{:.2f}'.format(ans)</br>
+print(norm_of_matrix)</br>
 
 ```
 ```
 # Infinity Norm of a Matrix
 
 
-import numpy as np
-mat=np.array(eval(input()))
-ans=np.linalg.norm(mat,np.inf)
-norm_of_matrix="{:.2f}".format(ans)
-print(norm_of_matrix)
-
-
+import numpy as np</br>
+mat=np.array(eval(input()))</br>
+ans=np.linalg.norm(mat,np.inf)</br>
+norm_of_matrix="{:.2f}".format(ans)</br>
+print(norm_of_matrix)</br>
+```
 ```
 ## Output:
 ### 1-Norm of a Matrix
-![image](https://github.com/user-attachments/assets/3121573e-9686-4d64-8e68-9f142be4b11d)
 
+![image](https://github.com/user-attachments/assets/3121573e-9686-4d64-8e68-9f142be4b11d)
 
 ### 2-Norm of a Matrix
 
 ![image](https://github.com/user-attachments/assets/0a4c01ae-1f82-4b81-84b5-bc89026d1386)
 
-### Infinity Norm of a Matrix
-
+### 3-Infinity Norm of a Matrix
 ![image](https://github.com/user-attachments/assets/d6a856ef-c792-4362-a85c-9abd45fb9702)
 
 ## Result
